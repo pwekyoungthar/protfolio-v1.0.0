@@ -1,0 +1,144 @@
+/*
+  --- 01 Typography System
+  -Font Size(px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  
+  
+  -Font Family
+  Google Font :
+  default : sans-serif
+  
+  -Font Weight
+  default : 400
+  heading-primary : 700
+  
+  -Line Height
+  default : 1
+  heading-primary : 1.1
+  
+  --- 02 Color
+  -Primary : ;
+  -Tints : ,
+  -Shades : ,
+  -Accents
+  -Grays : ;
+  
+  --- 03 Shadow
+  
+  --- 04 Border Radius
+  default : 9px;
+  
+  -Spacing System(px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  */
+
+:root {
+  --bg-primary: #070500;
+  --bg-secondary: #130c00;
+  --primary: #ffbd33;
+  --primary-shade: #b8651b;
+  --text: #fbf8f5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /*Font-size => 10 */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: var(--text);
+  line-height: 1;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+.grid--2--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--4--col {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--5--col {
+  grid-template-columns: repeat(5, 1fr);
+}
+/* Heading Components */
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.5px;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 6.4rem;
+}
+.heading-secondary-small-section {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+.heading-center {
+  text-align: center !important;
+}
+.heading-underline {
+  display: inline-block;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 8px;
+}
+.sub-heading {
+  color: var(--text);
+  font-size: 2rem;
+  font-weight: 500;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+/* button Components */
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: var(--primary);
+  color: var(--text);
+  font-weight: 700;
+}
+.btn-full:hover,
+.btn-full:active {
+  background-color: var(--primary-shade);
+  color: var(--text);
+  font-weight: 700;
+}

@@ -1,0 +1,188 @@
+/*************************************/
+/* Hero Section */
+/*************************************/
+.section-hero {
+  background-color: var(--bg-primary);
+  padding: 4.8rem 0 9.6rem 0;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+  align-items: center;
+  gap: 9.6rem;
+  padding: 0 3.2rem;
+}
+.img-hero {
+  width: 100%;
+  border-radius: 9px;
+}
+.my-name {
+  color: var(--primary);
+}
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+/*************************************/
+/* About Section */
+/*************************************/
+.section-about {
+  background-color: var(--bg-secondary);
+  padding: 3.2rem 0;
+}
+.grid--about {
+  grid-template-columns: 2fr 1fr;
+}
+.bio-desc {
+  color: var(--text);
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+.bio-desc span {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 500;
+  display: block;
+  text-transform: capitalize;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+.bio-list ul {
+  padding-top: 6.4rem;
+  padding-bottom: 3.2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+}
+.bio-list-li {
+  font-size: 1.8rem;
+  display: flex;
+}
+.bio-label {
+  padding-left: 2rem;
+}
+/*************************************/
+/* What I Do Section */
+/*************************************/
+.section-what-i-do {
+  background-color: var(--bg-secondary);
+  padding: 9.6rem 0;
+}
+.grid-what-i-do {
+  display: grid;
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+}
+.what-i-do-contents {
+  margin-bottom: 4.6rem;
+}
+
+.what-i-do-group {
+  display: flex;
+  column-gap: 2.4rem;
+}
+.what-i-do-icon {
+  font-size: 5.2rem;
+  color: var(--primary);
+}
+.what-i-do-content h3 {
+  color: var(--primary);
+}
+.what-i-do-content p {
+  color: var(--text);
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.skill-name {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 3.2rem;
+  font-weight: 600;
+}
+
+.grid-exp {
+  display: grid;
+  /* row-gap: 3.2rem; */
+  column-gap: 3.2rem;
+}
+
+.experience-titel {
+  padding: 6.4rem 0 0;
+}
+.experience-all {
+  border: 2px solid var(--primary);
+  padding: 0.8rem 3.2rem;
+  border-radius: 0.9rem;
+}
+.exp-num {
+  font-size: 6.2rem;
+  font-weight: 700;
+  color: var(--primary);
+  position: relative;
+}
+.exp-num::after {
+  content: "+";
+  font-size: 3rem;
+  position: absolute;
+  box-sizing: border-box;
+}
+.exp-title {
+  color: var(--text);
+  font-size: 2.4rem;
+  line-height: 1.6;
+  padding-left: 6.2rem;
+  padding-top: 0.4rem;
+}
+
+/*************************************/
+/* My Work Section */
+/*************************************/
+.section-work {
+  background-color: var(--bg-primary);
+  padding: 9.6rem 0 6.4rem;
+}
+.grid-project {
+  display: grid;
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+}
+.work-nav-ul {
+  list-style: none;
+  display: flex;
+  column-gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+}
+.work-nav-li {
+  font-size: 1.8rem;
+}
+.work-nav-link:link,
+.work-nav-link:visited {
+  display: inline-block;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.8rem;
+}
+.active {
+  border-bottom: 1px solid var(--primary) !important;
+  padding-bottom: 0.8rem;
+}
+.project-img {
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+.project-capt {
+  text-align: center;
+  font-size: 1.6rem;
+}

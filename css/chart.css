@@ -1,0 +1,72 @@
+/* body {
+  background-color: #e3edf7;
+  height: 100vh;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+} */
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill {
+  width: 160px;
+  height: 160px;
+  /*    background-color: cornflowerblue;*/
+  position: relative;
+}
+
+.outer {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  /*  border: 2px solid orangered;*/
+  padding: 20px;
+  /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
+}
+
+.inner {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*  border: 2px solid orangered*/
+  /* box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05); */
+}
+
+#number {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 3rem;
+}
+
+circle {
+  fill: none;
+  /* stroke: url(#GradientColor); */
+  stroke: var(--primary);
+  stroke-width: 20px;
+  stroke-dasharray: 450;
+  stroke-dashoffset: 450;
+  animation: anim 2s linear forwards;
+}
+
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 157.5;
+  }
+}
+
+/*Put it on the top of our circle*/
+.chart svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

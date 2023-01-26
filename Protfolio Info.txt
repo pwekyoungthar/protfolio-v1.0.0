@@ -1,0 +1,128 @@
+Background Color - #140F06
+Primary Color - #f8b138
+Text Color - #E8E6E2
+
+Font -family 	-	Inter
+			-	Clicker Script
+
+
+Sub Title		-	My Name Is Thu Rain Soe
+Main Title	-	I am Web Developer
+			-	I am Web Designer
+			-	I am UI / UX Developer
+	
+Description	-	I want to create the best UI/UX design and design applications with good workflow and error-free. I am a good developer with a good sense of humor and creativity.
+
+Skill		-	HTML 100%
+			-	CSS 50%
+			-	JavaScript 30%
+
+Project		-	Ominfood(Design / Training)
+			-	Portfolio(Design / Training)
+			-	iHome Ecommerce (Project)
+			-	YRIC(Government Project)
+			-	Sither ERP(Project)
+			-	Online Training(Project)
+			-	Mon State Government Project(Project)
+			-	Chin State Government Project(Project)
+			-	Myanmar 2D / 3D site
+			-	Football Betting Site
+			-	International Football Betting Site
+			-	Art Online Center Movie Platform
+			-	International Slot Games
+			-	Myanmar Traditional Slot Game(6 koung gin / 4 koung gin)
+			-	Yangon Fresh Market (E commerce)
+			-	KACY Beauty Ecommerce
+			-	Asxox (ERP and Ecommerce)
+			-	POS
+			-	Invetory Management System
+			-	Delivery Management System
+			-	Order Management System
+			-	CRM
+			-	Zin Exibition
+			-	Access Business Messenger App
+			-	AKH Application
+			-	DAN Government Project
+
+email		-	thuyeinsoe302017@gmail.com
+ph			-	09976217371
+
+
+Education		-	Graduated from Basic Education (2002 - 2003)
+			-	BA(Myanmar) (2010)
+			-	Diploma in Computing (2009)
+			-	Diploma in Accounting (2015)
+
+Work Experience
+			-	2011 - 2012 (Myanmar Newsweek Journal)
+			-	Graphic Designer / Layout Designer and DTP
+			-	2011 - 2012 (MNG Computer Training Center)
+				Computer Instructor (PartTime)
+			-	2012 - 2013 (Hello World)
+				Junior Web Designer and Instructor @ hello World
+			-	2014 - 2017 (iHome Ecommerce)
+				Web Developer
+			-	2017 - 2029 (Hello World II)
+				Senior Web Developer and Senior Instructor
+			-	2020 - 2021 ( Asxox Ecommerce)
+				Project Manager
+			-	2022 - Today(Dynasity Software House)
+				Project Manager and Senior Web Developer
+			-	2022 - Today (BMPS)
+				Senior Instructor
+
+Testimonials	-
+Blog Content	-
+
+
+Who I Am
+- My Name is Thu Yein Soe. I'm Web Develoer.
+- I have about 10 years of experience in Web Development and have designed many public and private projects. I have experience in designing various large scale projects like E-commerce / ERP/ Game and Gambling. In addition, I am good at dealing with customers; Able to perform tasks well; A developer who has good communication skills in the office and can collaborate with the organization. In addition, he is also a teacher who teaches programming subjects, so he is able to bring juniors under him well, and he is able to handle internal pressure well, and he is a person who can write projects before the deadline without errors.
+Name : Mr. Thu Yein Soe
+email : thuyeinsoe302017@gmail.com
+age : 36
+Form : Yangon , Myanmar
+
+
+What I Do
+- Graphic Design			-	
+I used Adobe Indesign, Photoshop, and CorelDraw to draw the magazine cover designs and interior designs.
+
+-	UI / UX Design 
+I have a good view on UI / UX and can give advice to the client based on experience and patiently design until it becomes a good application.
+
+- Backend Develop
+A good code base, good logic, and error-free business flows can be written well.
+
+-	Database Engineer
+Database related to the application and connected can be specially designed and easy to maintain.
+
+- API Architecture
+APIs can be properly written to work well in the Backend and Front End.
+
+- Mobile Developing
+I can design Android and iOS apps using Cross Platform Frameworks such as React Native and Flutter.
+
+- My Skill
+HTML
+CSS
+JavaScript
+React
+Vue
+jQuery
+Bootstrap
+Tailwind
+ajax
+
+PHP
+Laravel
+Node.js
+Wordpress
+
+MySQL 
+MongoDB
+
+React Native
+Flutter
+
+
