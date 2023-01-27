@@ -38,6 +38,7 @@
   --primary: #ffbd33;
   --primary-shade: #b8651b;
   --text: #fbf8f5;
+  --text-shade: #979593;
 }
 * {
   margin: 0;
@@ -69,6 +70,9 @@ body {
 }
 .grid--2--col {
   grid-template-columns: repeat(2, 1fr);
+}
+.grid--3--col {
+  grid-template-columns: repeat(3, 1fr);
 }
 .grid--4--col {
   grid-template-columns: repeat(4, 1fr);

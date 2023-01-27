@@ -186,3 +186,73 @@
   text-align: center;
   font-size: 1.6rem;
 }
+
+/*************************************/
+/* Education Section */
+/*************************************/
+.section-edu {
+  background-color: var(--bg-primary);
+  padding: 9.6rem 0 6.4rem;
+}
+.edu-group {
+  position: relative;
+}
+.edu-icon {
+  font-size: 3rem;
+  color: var(--primary);
+  background-color: var(--text);
+  position: absolute;
+  padding: 1.6rem;
+  border-radius: 50%;
+  border: 1px solid var(--primary-shade);
+}
+.edu-contents {
+  margin-left: 3.2rem;
+  padding-left: 7rem;
+  border-left: 0.75px solid var(--primary-shade);
+}
+.edu-year {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.edu-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.edu-desc {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/*************************************/
+/* Experiences Section */
+/*************************************/
+.section-exp {
+  background-color: var(--bg-primary);
+  padding: 9.6rem 0 6.4rem;
+}
+.exp-group {
+  display: flex;
+  column-gap: 2.4rem;
+  border: 1px solid var(--primary);
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+}
+.exp-icon {
+  font-size: 3rem;
+  color: var(--primary);
+}
+.exp-year {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.exp-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.exp-desc {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
