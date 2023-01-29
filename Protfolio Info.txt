@@ -6,6 +6,18 @@ Font -family 	-	Inter
 			-	Clicker Script
 
 
+Header
+	-	hero				-	False
+	-	about				-	True
+	-	What I Do		-	False
+	-	Work				-	True
+	-	edu					-	False
+	-	exp					-	True
+	-	testimonial	-	False
+	-	blog				-	True
+	-	contact			-	True
+
+
 Sub Title		-	My Name Is Thu Rain Soe
 Main Title	-	I am Web Developer
 			-	I am Web Designer
@@ -124,5 +136,3 @@ MongoDB
 
 React Native
 Flutter
-
-

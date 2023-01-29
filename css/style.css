@@ -1,9 +1,48 @@
 /*************************************/
+/* Header Section */
+/*************************************/
+.header {
+  padding: 4.8rem 0 2.4rem 0;
+  background-color: var(--bg-primary);
+  /* border-bottom: 1px solid #fff; */
+}
+.nav-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3.2rem;
+}
+.logo {
+  font-size: 3rem;
+  font-family: "Clicker Script";
+  letter-spacing: 3px;
+  color: var(--primary);
+}
+.nav {
+  list-style: none;
+  display: flex;
+  column-gap: 2.4rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: var(--text);
+  display: inline-block;
+  font-size: 2rem;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 1.2rem;
+  transition: all 0.3s;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
 /* Hero Section */
 /*************************************/
 .section-hero {
   background-color: var(--bg-primary);
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 9.6rem 0 9.6rem 0;
 }
 .hero {
   display: grid;
@@ -255,4 +294,190 @@
 .exp-desc {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+/*************************************/
+/* Testimonial Section */
+/*************************************/
+.section-testimonial {
+  background-color: var(--bg-secondary);
+  padding: 9.6rem 0;
+}
+.grid-testimonial {
+  display: grid;
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+}
+.testimonial-contents {
+  margin-bottom: 4.6rem;
+}
+
+.testimonial-group {
+  display: flex;
+  column-gap: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+.testimonial-img {
+  width: 5.2rem;
+  height: 5.2rem;
+  border-radius: 50%;
+}
+.testimonial-content .client-name {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.testimonial-content .position {
+  font-size: 1.6rem;
+  color: var(--text-shade);
+}
+
+.test-desc {
+  color: var(--text);
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+  padding-right: 1.2rem;
+}
+.rating-group {
+  text-align: center;
+  color: var(--primary);
+  font-size: 1.8rem;
+}
+/*************************************/
+/* Blog Section */
+/*************************************/
+.section-blog {
+  background-color: var(--bg-primary);
+  padding-top: 6.4rem;
+  padding-bottom: 9.6rem;
+}
+.blog-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+  background-color: var(--bg-secondary);
+}
+.blog-image {
+  border-bottom: 5px solid var(--primary);
+}
+.img-blog {
+  width: 100%;
+}
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+  padding: 1.6rem 3.2rem;
+}
+.blog-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.blog-desc {
+  font-size: 1.8rem;
+}
+/*************************************/
+/* Contact Section */
+/*************************************/
+.section-contact {
+  background-color: var(--bg-primary);
+  padding-top: 6.4rem;
+  padding-bottom: 9.6rem;
+}
+.grid-contact {
+  grid-template-columns: 1fr 2fr;
+}
+.contact-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+}
+.contact-title {
+  font-size: 3rem;
+}
+.contact-desc {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.mail-group,
+.ph-group {
+  display: flex;
+  column-gap: 2.4rem;
+}
+.mail-icon,
+.ph-icon {
+  font-size: 4.4rem;
+  color: var(--primary);
+}
+.mail-title,
+.ph-title {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+.mail a:link,
+.mail a:visited,
+.ph a:link,
+.ph a:visited {
+  font-size: 2rem;
+  color: var(--text);
+  text-decoration: none;
+}
+.social-group {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+  justify-content: center;
+  margin-top: 2.4rem;
+}
+.social-link:link,
+.social-link:visited {
+  font-size: 3rem;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.first-row {
+  display: flex;
+  column-gap: 1.6rem;
+}
+.first-row input {
+  width: 100%;
+  height: 4.4rem;
+  border: none;
+  background: var(--bg-secondary);
+  border-radius: 0.9rem;
+  color: var(--text-shade);
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+}
+.sec-row textarea {
+  width: 100%;
+  height: 25rem;
+  border: none;
+  background: var(--bg-secondary);
+  border-radius: 0.9rem;
+  color: var(--text-shade);
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+}
+.thi-row button {
+  width: 30%;
+  border: none;
+  background: var(--bg-secondary);
+  border-radius: 0.9rem;
+  color: var(--text-shade);
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.thi-row button:hover,
+.thi-row button:active {
+  background: var(--primary);
+  color: var(--bg-primary);
 }

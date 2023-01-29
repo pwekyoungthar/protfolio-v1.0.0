@@ -5,7 +5,8 @@
   
   
   -Font Family
-  Google Font :
+  Google Font :Inter
+			        -	Clicker Script
   default : sans-serif
   
   -Font Weight
@@ -51,7 +52,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   color: var(--text);
   line-height: 1;
