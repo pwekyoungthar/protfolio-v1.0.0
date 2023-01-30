@@ -49,6 +49,7 @@
 html {
   /*Font-size => 10 */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {

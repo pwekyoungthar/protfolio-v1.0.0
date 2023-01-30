@@ -38,6 +38,15 @@
   color: var(--primary);
   border-bottom: 2px solid var(--primary);
 }
+
+.sticky .header {
+  padding: 4.8rem 0 2.4rem 0;
+  background-color: var(--bg-primary);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
 /* Hero Section */
 /*************************************/
 .section-hero {
