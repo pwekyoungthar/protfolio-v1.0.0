@@ -46,3 +46,20 @@ btnMoreDetail.addEventListener("click", function (e) {
   const id = btnMoreDetail.getAttribute("href");
   document.querySelector(id).scrollIntoView({ behavior: "smooth" });
 });
+
+// Text Writing Animation
+const text = document.querySelector(".sec-text");
+
+const textLoad = () => {
+  setTimeout(() => {
+    text.textContent = "Web Developer";
+  }, 0);
+  setTimeout(() => {
+    text.textContent = "Web Designer";
+  }, 4000);
+  setTimeout(() => {
+    text.textContent = "Freelancer";
+  }, 8000);
+};
+
+setInterval(textLoad, 12000);
